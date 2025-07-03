@@ -8,31 +8,39 @@ function App() {
 
   return (
     <div className='app-container'>
-      <header>
-        <div className='header'>
-        <img src="https://www.hei.school/wp-content/uploads/2022/09/cropped-Logo-e1662790239183.png" alt="HEI Logo" />
+      <header className="header">
+        <div className="header-logo">
+          <img 
+            src="https://www.hei.school/wp-content/uploads/2022/09/cropped-Logo-e1662790239183.png" 
+            alt="HEI Logo"
+          />
         </div>
-        <nav className='header-nav'>
-          <a href="#accueil" className='nav-link'>ACCUEIL</a>
-          <a href="#actualites" className='nav-link'>ACTUALITÉS</a>
+        <nav className="header-nav">
+          <a href="#accueil" className="nav-link nav-link-accent">ACCUEIL</a>
+          <a href="#actualites" className="nav-link">ACTUALITÉS</a>
           <a href="#bourse-etudes" className="nav-link">BOURSE D'ÉTUDES</a>
           <a href="#inscription" className="nav-link">INSCRIPTION</a>
           <button className="nav-button">INTRANET</button>
         </nav>
       </header>
 
-      <section className='hero-section'>
-      <div className='hero-content'>
-      <h1 className='hero-title'>Haute École d'Informatique</h1>
-      <p className="hero-text">
-        Une infrastructure de qualité et un programme pédagogique qui répond au besoin du marché pour l'employabilité de nos étudiants.
-      </p>
-      <div className='hero-buttons'>
-        <button className="hero-button hero-button-primary">Inscrivez-vous ici</button>
-        <button className="hero-button hero-button-secondary">Emploi du temps</button>
-        <button className="hero-button hero-button-tertiary">Programme pédagogique</button>
-      </div>
-      </div>
+      <section 
+        className="hero-section"
+        style={{
+          backgroundImage: `linear-gradient(rgba(15, 23, 42, 0.7), rgba(30, 58, 138, 0.8)), url('https://hei.school/wp-content/uploads/2024/09/hei-banner-1.webp')`
+        }}
+      >
+        <div className="hero-content">
+          <h1 className="hero-title">Haute École d'Informatique</h1>
+          <p className="hero-text">
+            Une infrastructure de qualité et un programme pédagogique qui répond au besoin du marché pour l'employabilité de nos étudiants.
+          </p>
+          <div className="hero-buttons">
+            <button className="hero-button hero-button-primary">Inscrivez-vous ici</button>
+            <button className="hero-button hero-button-secondary">Emploi du temps</button>
+            <button className="hero-button hero-button-tertiary">Programme pédagogique</button>
+          </div>
+        </div>
       <button className="hero-arrow hero-arrow-left">‹</button>
       <button className="hero-arrow hero-arrow-right">›</button>
       </section>
