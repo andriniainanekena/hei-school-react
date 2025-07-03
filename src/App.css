@@ -1,0 +1,158 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #001948;
+  padding: 5px 30px;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-logo img {
+  height: 50px;
+}
+
+.header-nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 5px 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-link-accent {
+  color: #DFA408;
+}
+
+.nav-link:hover {
+  color: #DFA408;
+}
+
+.nav-button {
+  background-color: #DFA408;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #c28f06;
+}
+
+.hero-section {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  background-position: center;
+}
+
+.hero-content {
+  z-index: 1;
+}
+
+.hero-title {
+  font-size: 6em;
+  margin-top: -10px;
+  margin-bottom: 150px;
+  font-weight: bold;
+}
+
+.hero-text {
+  font-size: 2.1em;
+  margin-bottom: 150px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.hero-button {
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.8em;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 270px;
+  transition: background-color 0.3s ease;
+}
+
+.hero-button-primary {
+  background-color: #DFA408;
+  color: white;
+}
+
+.hero-button-primary:hover {
+  background-color: #c28f06;
+}
+
+.hero-button-secondary {
+  background-color: #001948;
+  color: white;
+}
+
+.hero-button-secondary:hover {
+  background-color: #003366;
+}
+
+.hero-button-tertiary {
+  background-color: #001948;
+  color: white;
+}
+
+.hero-button-tertiary:hover {
+  background-color: #003366;
+}
+
+.hero-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  font-size: 1.8em;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.hero-arrow:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hero-arrow-left {
+  left: 20px;
+}
+
+.hero-arrow-right {
+  right: 20px;
+}
