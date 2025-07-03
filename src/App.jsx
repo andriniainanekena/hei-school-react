@@ -37,7 +37,30 @@ function App() {
       <button className="hero-arrow hero-arrow-right">›</button>
       </section>
 
+      <section className="admission-section">
+        <h2 className="section-title">Admission</h2>
+        <p className="section-text">Ouverte aux bacheliers de toutes les séries, l'admission chez HEI se fait par test de niveau : une épreuve de français niveau B2 et d'une épreuve de mathématiques niveau Terminale D.</p>
+        <div className="admission-steps">
+          <div className="admission-step">
+            <h3 className="step-number">01</h3>
+            <p className="step-text">Dépôt de dossiers : pour les bacheliers de toutes séries sans limite d'âge</p>
+          </div>
+          <div className="admission-step admission-step-middle">
+            <h3 className="step-number">02</h3>
+            <p className="step-text">Test de niveau : composé d'une épreuve de français niveau B2 et d'une épreuve de mathématiques niveau Terminale D</p>
+          </div>
+          <div className="admission-step admission-step-last">
+            <h3 className="step-number">03</h3>
+            <p className="step-text">Inscription définitive (si test réussi)</p>
+          </div>
+        </div>
+        <div className="admission-buttons">
+          <button className="admission-button">Inscrivez-vous ici</button>
+          <button className="admission-button">Résultat concours</button>
+        </div>
+      </section>
 
+      
     </div>
   )
 }
