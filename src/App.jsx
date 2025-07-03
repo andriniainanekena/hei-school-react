@@ -27,7 +27,7 @@ function App() {
       <section 
         className="hero-section"
         style={{
-          backgroundImage: `linear-gradient(rgba(15, 23, 42, 0.7), rgba(30, 58, 138, 0.8)), url('https://hei.school/wp-content/uploads/2024/09/hei-banner-1.webp')`
+          backgroundImage: `linear-gradient(rgba(19, 26, 48, 0.18), rgba(30, 58, 138, 0.8)), url('https://hei.school/wp-content/uploads/2024/09/hei-banner-1.webp')`
         }}
       >
         <div className="hero-content">
