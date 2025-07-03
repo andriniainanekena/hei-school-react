@@ -33,6 +33,8 @@ function App() {
         <button className="hero-button hero-button-tertiary">Programme pédagogique</button>
       </div>
       </div>
+      <button className="hero-arrow hero-arrow-left">‹</button>
+      <button className="hero-arrow hero-arrow-right">›</button>
       </section>
 
 
