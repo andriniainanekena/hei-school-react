@@ -72,6 +72,28 @@ function App() {
         </div>
       </section>
 
+      <section className="domains-section">
+        <h2 className="section-title">Domaines</h2>
+        <p className="section-text">Au cours de vos trois ans de formation, naviguez entre les domaines les plus porteurs du numérique du présent et de l'avenir :</p>
+        <div className="domains-list">
+          <div className="domain-card">
+            <img src="https://img.icons8.com/ios-filled/50/000000/cloud.png" alt="Cloud" />
+            <h3 className="domain-title">Cloud et cybersécurité</h3>
+            <p className="domain-text">Maîtrisez les engrenages des outils en ligne interconnectés sur les nuages (comme sur AWS). Ou encore, devenez maître de la sécurisation des données en ligne ou des programmes et applications contre les cybermenaces. Chez HEI, vous allez vous former dans le domaine du cloud et de la cybersécurité.</p>
+          </div>
+          <div className="domain-card">
+            <img src="https://img.icons8.com/ios-filled/50/000000/brain.png" alt="AI" />
+            <h3 className="domain-title">Intelligence artificielle</h3>
+            <p className="domain-text">Le monde de la reconnaissance faciale ou la détection d'obstacles par les voitures semi-autonomes vous fascinent ? Ce n'est pas sorcier, cela s'apprend. Apprenez les bases de l'intelligence artificielle lors de vos cours chez HEI.</p>
+          </div>
+          <div className="domain-card">
+            <img src="https://img.icons8.com/ios-filled/50/000000/code.png" alt="Engineering" />
+            <h3 className="domain-title">Ingénierie logicielle</h3>
+            <p className="domain-text">Apprenez les principes de la conception du développement de programmes et d'applications web et mobile et explorez le monde fascinant des "codes". À la fin de votre formation, vous serez aptes à proposer des solutions pratiques, créatives et innovantes à des particuliers ou des entreprises pour leurs besoins numériques.</p>
+          </div>
+        </div>
+      </section>
+
       <section className="admission-section">
         <h2 className="section-title">Admission</h2>
         <p className="section-text">Ouverte aux bacheliers de toutes les séries, l'admission chez HEI se fait par test de niveau : une épreuve de français niveau B2 et d'une épreuve de mathématiques niveau Terminale D.</p>
