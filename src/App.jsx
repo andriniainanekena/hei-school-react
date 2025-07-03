@@ -37,6 +37,32 @@ function App() {
       <button className="hero-arrow hero-arrow-right">›</button>
       </section>
 
+      <section className="about-section">
+        <div className="about-content">
+          <div className="about-images">
+            <img src="https://hei.school/wp-content/uploads/2024/11/A-propos-left-1.webp" alt="Image" className="about-image" />
+          </div>
+          <div className="about-text">
+            <h2 className="section-title">À propos de nous</h2>
+            <div className="about-item">
+              <span className="about-icon">Icon 1</span>
+              <h3 className="about-subtitle">+3ans</h3>
+              <p className="section-text">Depuis 3 ans, nous formons ceux qui décodent le futur, aux métiers de l’informatique. Nous sommes un groupe d’experts, de professionnels et des passionnés de l’informatique de Madagascar et du monde entier.</p>
+            </div>
+            <div className="about-item">
+              <span className="about-icon">Icon 2</span>
+              <h3 className="about-subtitle">+250 étudiants</h3>
+              <p className="section-text">Plus de 250 étudiants et plus d’une dizaine d’entreprises ont déjà fait confiance à notre formation habilitée par l’État malgache. Avec eux tous, nous sommes fiers de pouvoir parler de la “grande famille HEI”.</p>
+            </div>
+            <div className="about-item">
+              <span className="about-icon">Icon 3</span>
+              <h3 className="about-subtitle">Notre mission</h3>
+              <p className="section-text">Notre mission est d’amener des jeunes malgaches sur des domaines porteurs comme l’intelligence artificielle, la cybersécurité ou la programmation afin de favoriser leur employabilité et le développement de Madagascar.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="admission-section">
         <h2 className="section-title">Admission</h2>
         <p className="section-text">Ouverte aux bacheliers de toutes les séries, l'admission chez HEI se fait par test de niveau : une épreuve de français niveau B2 et d'une épreuve de mathématiques niveau Terminale D.</p>
@@ -60,7 +86,7 @@ function App() {
         </div>
       </section>
 
-      
+
     </div>
   )
 }
