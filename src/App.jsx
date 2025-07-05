@@ -71,14 +71,18 @@ function App() {
         </div>
       </section>
 
-      <section className="careers-section">
-        <h2 className="section-title">Quelques débouchés</h2>
-        <p className="section-text">Formez-vous à une panoplie de métiers du numérique avec nous et venez acquérir les fondements de la programmation (qui vous servira pour les différents métiers) ! Ce sont des métiers porteurs, des métiers du présent, des métiers du futur…</p>
-        <p className="careers-text">Développeur back end, développeur front end, développeurs mobile, chefs de projet, exploitants cloud, analystes cybersécurité, pentesters, auditeur technique SSI, auditeur organisationnel SSI, administrateur système et réseau, développeur de sécurité…</p>
-        <div className="careers-image">
-          <img src="https://hei.school/wp-content/uploads/2024/11/IMG-02-e1720543344824-987x1024-1.webp" alt="Student" className="careers-student-image" />
-        </div>
-      </section>
+<section className="careers-section">
+  <div className="careers-content">
+    <div className="text-content">
+      <h2 className="section-title">Quelques débouchés</h2>
+      <p className="section-text">Formez-vous à une panoplie de métiers du numérique avec nous et venez acquérir les fondements de la programmation (qui vous servira pour les différents métiers) ! Ce sont des métiers porteurs, des métiers du présent, des métiers du futur…</p>
+      <p className="careers-text">Développeur back end, développeur front end, développeurs mobile, chefs de projet, exploitants cloud, analystes cybersécurité, pentesters, auditeur technique SSI, auditeur organisationnel SSI, administrateur système et réseau, développeur de sécurité…</p>
+    </div>
+    <div className="careers-image">
+      <img src="https://hei.school/wp-content/uploads/2024/11/IMG-02-e1720543344824-987x1024-1.webp" alt="Student" className="careers-student-image" />
+    </div>
+  </div>
+</section>
 
       <section className="domains-section">
         <h2 className="section-title">Domaines</h2>
