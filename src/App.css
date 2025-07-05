@@ -330,3 +330,116 @@
   font-size: 1.7rem;
   line-height: 1.6;
 }
+
+.admission-section {
+  background-color: #6f8ed9;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.admission-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.admission-description {
+  color: white;
+  font-size: 1.7rem;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 0 auto 50px;
+}
+
+.admission-steps {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+}
+
+.step {
+  flex: 1;
+  min-width: 280px;
+  padding: 40px 30px;
+  position: relative;
+  background-color: #fce0b1;
+  text-align: left;
+  transition: 0.3s;
+}
+
+.step-2 {
+  background-color: #f9cd84;
+}
+
+.step-3 {
+  background-color: #f1b957;
+}
+
+.step-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.step p {
+  font-size: 1.7rem;
+  color: #000;
+  margin: 0;
+}
+
+.step-arrow {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2.5rem;
+  color: white;
+}
+
+.admission-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.button-primary {
+  background-color: white;
+  color: #001948;
+  border: 2px solid white;
+  padding: 14px 32px;
+  font-weight: bold;
+  font-size: 1.7rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button-primary:hover {
+  background-color: #001948;
+  color: white;
+}
+
+.button-secondary {
+  background-color: #001948;
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  font-weight: bold;
+  font-size: 1.7rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button-secondary:hover {
+  background-color: #000e3d;
+}
