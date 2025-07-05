@@ -255,7 +255,7 @@
   text-align: left;
 }
 .section-text, .careers-text {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: #001948;
   margin-bottom: 50px;
   text-align: left;
@@ -268,4 +268,65 @@
 .careers-student-image {
   max-width: 400px;
   padding: 20px;
+}
+
+.domains-section {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.section-title {
+  color:  #001948;
+  text-align: center;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.section-text-domains {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.7rem;
+  color: #001948;
+}
+
+.domains-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.domain-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.domain-card:hover {
+  transform: translateY(-5px);
+}
+
+.domain-card img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+}
+
+.domain-title {
+  color: #DFA408;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.domain-text {
+  color: #001948;
+  font-size: 1.7rem;
+  line-height: 1.6;
 }
