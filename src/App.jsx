@@ -106,28 +106,43 @@ function App() {
         </div>
       </section>
 
-      <section className="admission-section">
-        <h2 className="section-title">Admission</h2>
-        <p className="section-text">Ouverte aux bacheliers de toutes les séries, l'admission chez HEI se fait par test de niveau : une épreuve de français niveau B2 et d'une épreuve de mathématiques niveau Terminale D.</p>
-        <div className="admission-steps">
-          <div className="admission-step">
-            <h3 className="step-number">01</h3>
-            <p className="step-text">Dépôt de dossiers : pour les bacheliers de toutes séries sans limite d'âge</p>
-          </div>
-          <div className="admission-step admission-step-middle">
-            <h3 className="step-number">02</h3>
-            <p className="step-text">Test de niveau : composé d'une épreuve de français niveau B2 et d'une épreuve de mathématiques niveau Terminale D</p>
-          </div>
-          <div className="admission-step admission-step-last">
-            <h3 className="step-number">03</h3>
-            <p className="step-text">Inscription définitive (si test réussi)</p>
-          </div>
+    <section className="admission-section">
+      <h2 className="admission-title">Admission</h2>
+      <p className="admission-description">
+        Ouverte aux bacheliers de toutes les séries, l’admission chez HEI se fait par test de niveau :<br />
+        une épreuve de français niveau B2 et d’une épreuve de mathématiques niveau Terminale D.
+      </p>
+
+      <div className="admission-steps">
+        <div className="step step-1">
+          <h3 className="step-number">01</h3>
+          <p>
+            <strong>Dépôt de dossiers</strong> : pour les bacheliers de toutes séries sans limite d’âge
+          </p>
+          <span className="step-arrow">➜</span>
         </div>
-        <div className="admission-buttons">
-          <button className="admission-button">Inscrivez-vous ici</button>
-          <button className="admission-button">Résultat concours</button>
+
+        <div className="step step-2">
+          <h3 className="step-number">02</h3>
+          <p>
+            <strong>Test de niveau</strong> : composé d’une épreuve de français niveau B2 et d’une épreuve de mathématiques niveau Terminale D
+          </p>
+          <span className="step-arrow">➜</span>
         </div>
-      </section>
+
+        <div className="step step-3">
+          <h3 className="step-number">03</h3>
+          <p>
+            <strong>Inscription définitive</strong> (si test réussi)
+          </p>
+        </div>
+      </div>
+
+      <div className="admission-buttons">
+        <button className="button-primary">Inscrivez-vous ici</button>
+        <button className="button-secondary">Résultat concours</button>
+      </div>
+    </section>
 
 
     </div>
