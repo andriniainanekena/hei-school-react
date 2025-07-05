@@ -86,7 +86,7 @@ function App() {
 
       <section className="domains-section">
         <h2 className="section-title">Domaines</h2>
-        <p className="section-text">Au cours de vos trois ans de formation, naviguez entre les domaines les plus porteurs du numérique du présent et de l'avenir :</p>
+        <p className="section-text-domains">Au cours de vos trois ans de formation, naviguez entre les domaines les plus porteurs du numérique du présent et de l'avenir :</p>
         <div className="domains-list">
           <div className="domain-card">
             <img src="https://img.icons8.com/ios-filled/50/000000/cloud.png" alt="Cloud" />
